@@ -1,0 +1,17 @@
+{
+  "name": "random-latency",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "main": "dist/start.js",
+  "scripts": {
+    "start": "node lib/start.js"
+  },
+  "typings": "dist/start.d.ts",
+  "devDependencies": {
+    "@rushstack/heft": "^0.23.0",
+    "@types/node": "14.14.14",
+    "typescript": "^4.1.3"
+  }
+}
