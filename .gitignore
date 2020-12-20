@@ -1,6 +1,8 @@
 # IDEA
 .idea/
 
+temp/
+
 ## Heft
 .heft/
 
