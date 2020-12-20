@@ -4,7 +4,6 @@
   "compilerOptions": {
     "outDir": "dist",
     "rootDirs": ["src/"],
-
     "forceConsistentCasingInFileNames": true,
     "declaration": true,
     "sourceMap": true,
@@ -13,7 +12,7 @@
     "experimentalDecorators": true,
     "strict": true,
     "esModuleInterop": true,
-    "types": ["node"],
+    "types": ["heft-jest","node"],
 
     "module": "commonjs",
     "target": "es2017",

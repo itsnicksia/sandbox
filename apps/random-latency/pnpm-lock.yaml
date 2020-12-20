@@ -1,5 +1,6 @@
 devDependencies:
   '@rushstack/heft': 0.23.0
+  '@types/heft-jest': 1.0.2
   '@types/node': 14.14.14
   typescript: 4.1.3
 lockfileVersion: 5.2
@@ -500,6 +501,18 @@ packages:
       node: '>= 8.3'
     resolution:
       integrity: sha1-TWpHk/e5WZ/DaAh3uFapfbzPKp0=
+  /@jest/types/26.6.2:
+    dependencies:
+      '@types/istanbul-lib-coverage': 2.0.3
+      '@types/istanbul-reports': 3.0.0
+      '@types/node': 14.14.14
+      '@types/yargs': 15.0.12
+      chalk: 4.1.0
+    dev: true
+    engines:
+      node: '>= 10.14.2'
+    resolution:
+      integrity: sha1-vvWlMgMOHYii9abZM/hOlyJu1I4=
   /@nodelib/fs.scandir/2.1.3:
     dependencies:
       '@nodelib/fs.stat': 2.0.3
@@ -701,6 +714,12 @@ packages:
     dev: true
     resolution:
       integrity: sha1-T/n2QafG0aNQj/iLwxQbFSdy51M=
+  /@types/heft-jest/1.0.2:
+    dependencies:
+      '@types/jest': 26.0.19
+    dev: true
+    resolution:
+      integrity: sha1-cGySO0Z79fSzFcHggl26l8SF2d8=
   /@types/http-proxy-middleware/0.19.3:
     dependencies:
       '@types/connect': 3.4.34
@@ -732,6 +751,19 @@ packages:
     dev: true
     resolution:
       integrity: sha1-6HXMaJ5HvOVJ7IHz315vbxHPrrI=
+  /@types/istanbul-reports/3.0.0:
+    dependencies:
+      '@types/istanbul-lib-report': 3.0.0
+    dev: true
+    resolution:
+      integrity: sha1-UIsTqjRPpJdiNOdd3cw0klc32CE=
+  /@types/jest/26.0.19:
+    dependencies:
+      jest-diff: 26.6.2
+      pretty-format: 26.6.2
+    dev: true
+    resolution:
+      integrity: sha1-5voePe9YQuyFBFvVIQ6buCid55A=
   /@types/mime/2.0.3:
     dev: true
     resolution:
@@ -1695,6 +1727,15 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha1-P3PCv1JlkfV0zEksUeJFY0n4ROQ=
+  /chalk/4.1.0:
+    dependencies:
+      ansi-styles: 4.3.0
+      supports-color: 7.2.0
+    dev: true
+    engines:
+      node: '>=10'
+    resolution:
+      integrity: sha1-ThSHCmGNni7dl92DRf2dncMVZGo=
   /chokidar/2.1.8:
     dependencies:
       anymatch: 2.0.0
@@ -2273,6 +2314,12 @@ packages:
       node: '>= 8.3'
     resolution:
       integrity: sha1-X0Z8AO3TU1K3vKRteSfWDmh6dt0=
+  /diff-sequences/26.6.2:
+    dev: true
+    engines:
+      node: '>= 10.14.2'
+    resolution:
+      integrity: sha1-SLqZFX3hkjQS7tQdtrbUqpynwLE=
   /diffie-hellman/5.0.3:
     dependencies:
       bn.js: 4.11.9
@@ -3864,6 +3911,17 @@ packages:
       node: '>= 8.3'
     resolution:
       integrity: sha1-HdJu1k+WZnwGjO8Ca2d9+gGvz6k=
+  /jest-diff/26.6.2:
+    dependencies:
+      chalk: 4.1.0
+      diff-sequences: 26.6.2
+      jest-get-type: 26.3.0
+      pretty-format: 26.6.2
+    dev: true
+    engines:
+      node: '>= 10.14.2'
+    resolution:
+      integrity: sha1-GqdGi1LDpo19XF/c381eSb0WQ5Q=
   /jest-docblock/25.3.0:
     dependencies:
       detect-newline: 3.1.0
@@ -3916,6 +3974,12 @@ packages:
       node: '>= 8.3'
     resolution:
       integrity: sha1-Cwoy+riQi0TVCL6BaBSH26u42Hc=
+  /jest-get-type/26.3.0:
+    dev: true
+    engines:
+      node: '>= 10.14.2'
+    resolution:
+      integrity: sha1-6X3Dw/U8K0Bsp6+u1Ek7HQmRmeA=
   /jest-haste-map/25.5.1:
     dependencies:
       '@jest/types': 25.5.0
@@ -5480,6 +5544,17 @@ packages:
       node: '>= 8.3'
     resolution:
       integrity: sha1-eHPB13T2gsNLjUi2dDor8qxVeRo=
+  /pretty-format/26.6.2:
+    dependencies:
+      '@jest/types': 26.6.2
+      ansi-regex: 5.0.0
+      ansi-styles: 4.3.0
+      react-is: 17.0.1
+    dev: true
+    engines:
+      node: '>= 10'
+    resolution:
+      integrity: sha1-41wnBfFMt/4v6U+geDRbREEg/JM=
   /process-nextick-args/2.0.1:
     dev: true
     resolution:
@@ -5624,6 +5699,10 @@ packages:
     dev: true
     resolution:
       integrity: sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
+  /react-is/17.0.1:
+    dev: true
+    resolution:
+      integrity: sha1-WzUxvXamRaTJ+25pPtNkGeMwEzk=
   /read-pkg-up/1.0.1:
     dependencies:
       find-up: 1.1.2
@@ -7404,5 +7483,6 @@ packages:
       integrity: sha1-6oEysnlTPuYL4khaAvfj5CVBqaI=
 specifiers:
   '@rushstack/heft': ^0.23.0
+  '@types/heft-jest': 1.0.2
   '@types/node': 14.14.14
   typescript: ^4.1.3
