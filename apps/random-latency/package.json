@@ -11,9 +11,11 @@
   },
   "typings": "dist/app.d.ts",
   "devDependencies": {
+    "@rushstack/eslint-config": "^2.3.2",
     "@rushstack/heft": "^0.23.0",
     "@types/heft-jest": "1.0.2",
     "@types/node": "14.14.14",
+    "eslint": "^7.16.0",
     "typescript": "^4.1.3"
   }
 }
