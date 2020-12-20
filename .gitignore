@@ -1,6 +1,9 @@
 # IDEA
 .idea/
 
+## Heft
+.heft/
+
 # Logs
 logs
 *.log
