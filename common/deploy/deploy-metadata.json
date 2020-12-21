@@ -1,0 +1,10 @@
+{
+  "scenarioName": "deploy.json",
+  "mainProjectName": "@nicksia/random-latency",
+  "projects": [
+    {
+      "path": "apps/random-latency"
+    }
+  ],
+  "links": []
+}

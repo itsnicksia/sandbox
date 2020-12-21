@@ -14,7 +14,7 @@
 
   "projects": [
     {
-      "packageName": "random-latency",
+      "packageName": "@nicksia/random-latency",
       "projectFolder": "apps/random-latency"
     }
   ]

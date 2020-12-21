@@ -1,0 +1,10 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/deploy-scenario.schema.json",
+  "deploymentProjectNames": ["@nicksia/random-latency"],
+  "projectSettings": [
+    {
+       "projectName": "@nicksia/random-latency",
+       "dependenciesToExclude": []
+     }
+  ]
+}
